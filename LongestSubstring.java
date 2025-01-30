@@ -14,7 +14,7 @@ public class LongestSubstring {
  return maxLength;
  }
  public static void main(String[] args) {
- String s = "bcbcaaabc";
+ String s = "bcbcaaabcababab";
  System.out.println("Length of the longest substring without repeating characters: " + 
 lengthOfLongestSubstring(s));
  }
